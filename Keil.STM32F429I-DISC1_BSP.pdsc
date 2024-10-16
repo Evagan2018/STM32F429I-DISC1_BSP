@@ -2,7 +2,7 @@
 <package schemaVersion="1.7.36" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Spec/v1.7.36/schema/PACK.xsd">
   <name>STM32F429I-DISC1_BSP</name>
   <vendor>Keil</vendor>
-  <description overview="Documentation/OVERVIEW.md">STMicroelectronics STM32F4 Series STM32F429I-DISC1 Board Support Pack</description>
+  <description overview="Documents/OVERVIEW.md">STMicroelectronics STM32F4 Series STM32F429I-DISC1 Board Support Pack</description>
   <url>https://www.keil.com/pack/</url>
   <repository type="git">https://github.com/Open-CMSIS-Pack/STM32F429I-DISC1_BSP.git</repository>
   <license>LICENSE</license>
@@ -17,7 +17,7 @@
       Prepared for new CMSIS-Toolbox CubeMX integration
       Board description for STM32F429I-DISC1
       Blinky example (CMSIS Solution)
-      Drivers:
+      CMSIS-Drivers:
       - CMSIS-Driver VIO
     </release>
   </releases>
@@ -73,7 +73,7 @@
            salesContact="https://www.st.com/content/st_com/en/contact-us.html">
       <description>STM32 Discovery development board with STM32F429ZITx MCU</description>
       <image small="Images/stm32f429i-disc1_small.png"
-             large="Images/stm32f429i-disc1_large.png" public="true"/>
+             large="Images/stm32f429i-disc1_large.png"/>
       <book category="overview"  name="https://www.st.com/en/evaluation-tools/32f429idiscovery.html" title="STM32F429I-DISC1 Board"/>
       <book category="overview"  name="https://www.st.com/resource/en/data_brief/32f429idiscovery.pdf" title="Data Brief"/>
       <book category="manual"    name="https://www.st.com/resource/en/user_manual/um1670-discovery-kit-with-stm32f429zi-mcu-stmicroelectronics.pdf" title="User Manual"/>
